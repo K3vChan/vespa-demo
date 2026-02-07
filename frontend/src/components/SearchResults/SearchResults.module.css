@@ -1,0 +1,65 @@
+.heading {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.count {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.film {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.filmHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filmName {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.filmScore {
+  font-size: 12px;
+  color: #888;
+  font-family: monospace;
+}
+
+.filmDesc {
+  color: #666;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.filmMeta {
+  font-size: 12px;
+  color: #999;
+}
+
+.tag {
+  display: inline-block;
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 4px;
+  font-size: 11px;
+}
+
+.boosted {
+  background: #d4edda;
+  color: #155724;
+}
+
+.penalized {
+  background: #f8d7da;
+  color: #721c24;
+}

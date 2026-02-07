@@ -1,0 +1,5 @@
+frontend/node_modules/
+static/dist/
+vespa-demo
+vespa-demo.db
+CLAUDE.md

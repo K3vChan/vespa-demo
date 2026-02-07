@@ -1,0 +1,62 @@
+schema film {
+
+    document film {
+
+        field title type string {
+            indexing: summary | index
+        }
+
+        field description type string {
+            indexing: summary | index
+        }
+
+        field genre type string {
+            indexing: summary | attribute
+        }
+
+        field director type string {
+            indexing: summary | attribute
+        }
+
+        field year type int {
+            indexing: summary | attribute
+        }
+
+        field rating type float {
+            indexing: summary | attribute
+        }
+
+        field tags type array<string> {
+            indexing: summary | attribute
+        }
+
+        field cast type array<string> {
+            indexing: summary | attribute
+        }
+    }
+
+    fieldset default {
+        fields: title, description
+    }
+
+    rank-profile personalized inherits default {
+
+        inputs {
+            query(genre_boost) tensor<float>(genre{})
+            query(genre_penalty) tensor<float>(genre{})
+            query(tag_boost) tensor<float>(tag{})
+            query(tag_penalty) tensor<float>(tag{})
+        }
+
+        first-phase {
+            expression {
+                bm25(title) + bm25(description)
+                + if (tensorFromLabels(attribute(genre), genre) * query(genre_boost) > 0, 10, 0)
+                - if (tensorFromLabels(attribute(genre), genre) * query(genre_penalty) > 0, 10, 0)
+                + if (tensorFromLabels(attribute(tags), tag) * query(tag_boost) > 0, 5, 0)
+                - if (tensorFromLabels(attribute(tags), tag) * query(tag_penalty) > 0, 5, 0)
+            }
+        }
+    }
+
+}

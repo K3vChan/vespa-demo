@@ -1,0 +1,1302 @@
+[
+  {
+    "put": "id:films:film::1",
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "description": "A banker wrongly convicted of murder forms a life-changing friendship with a fellow inmate over two decades in prison.",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "rating": 9.3,
+      "tags": ["classic", "adaptation", "oscar-nominated"],
+      "cast": ["Tim Robbins", "Morgan Freeman"]
+    }
+  },
+  {
+    "put": "id:films:film::2",
+    "fields": {
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant youngest son.",
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "rating": 9.2,
+      "tags": ["classic", "oscar-winner", "adaptation"],
+      "cast": ["Marlon Brando", "Al Pacino"]
+    }
+  },
+  {
+    "put": "id:films:film::3",
+    "fields": {
+      "title": "The Dark Knight",
+      "description": "Batman faces the Joker, a criminal mastermind who plunges Gotham City into anarchy.",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "rating": 9.0,
+      "tags": ["blockbuster", "sequel", "visually-stunning"],
+      "cast": ["Christian Bale", "Heath Ledger"]
+    }
+  },
+  {
+    "put": "id:films:film::4",
+    "fields": {
+      "title": "Pulp Fiction",
+      "description": "Interconnected stories of crime and redemption in Los Angeles unfold in non-linear fashion.",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "rating": 8.9,
+      "tags": ["classic", "oscar-winner", "ensemble-cast"],
+      "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+    }
+  },
+  {
+    "put": "id:films:film::5",
+    "fields": {
+      "title": "Schindler's List",
+      "description": "A German businessman saves over a thousand Jewish refugees during the Holocaust by employing them in his factories.",
+      "genre": "Drama",
+      "director": "Steven Spielberg",
+      "year": 1993,
+      "rating": 9.0,
+      "tags": ["classic", "oscar-winner", "thought-provoking"],
+      "cast": ["Liam Neeson", "Ralph Fiennes"]
+    }
+  },
+  {
+    "put": "id:films:film::6",
+    "fields": {
+      "title": "Inception",
+      "description": "A skilled thief who steals secrets from dreams is offered a chance to have his criminal record erased if he can plant an idea in someone's mind.",
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "rating": 8.8,
+      "tags": ["blockbuster", "visually-stunning", "thought-provoking"],
+      "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt"]
+    }
+  },
+  {
+    "put": "id:films:film::7",
+    "fields": {
+      "title": "Fight Club",
+      "description": "An insomniac office worker forms an underground fight club that evolves into something much more dangerous.",
+      "genre": "Drama",
+      "director": "David Fincher",
+      "year": 1999,
+      "rating": 8.8,
+      "tags": ["cult-favorite", "adaptation", "thought-provoking"],
+      "cast": ["Brad Pitt", "Edward Norton"]
+    }
+  },
+  {
+    "put": "id:films:film::8",
+    "fields": {
+      "title": "Forrest Gump",
+      "description": "A simple man with a low IQ witnesses and unwittingly influences several defining historical events in 20th century America.",
+      "genre": "Drama",
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "rating": 8.8,
+      "tags": ["classic", "oscar-winner", "adaptation"],
+      "cast": ["Tom Hanks", "Robin Wright"]
+    }
+  },
+  {
+    "put": "id:films:film::9",
+    "fields": {
+      "title": "The Matrix",
+      "description": "A computer hacker discovers that reality as he knows it is a simulation created by machines to subdue humanity.",
+      "genre": "Sci-Fi",
+      "director": "Lana Wachowski",
+      "year": 1999,
+      "rating": 8.7,
+      "tags": ["blockbuster", "visually-stunning", "cult-favorite"],
+      "cast": ["Keanu Reeves", "Laurence Fishburne"]
+    }
+  },
+  {
+    "put": "id:films:film::10",
+    "fields": {
+      "title": "Goodfellas",
+      "description": "The story of Henry Hill and his life in the mob, from his early days to his eventual downfall and cooperation with the FBI.",
+      "genre": "Crime",
+      "director": "Martin Scorsese",
+      "year": 1990,
+      "rating": 8.7,
+      "tags": ["classic", "adaptation", "ensemble-cast"],
+      "cast": ["Robert De Niro", "Ray Liotta", "Joe Pesci"]
+    }
+  },
+  {
+    "put": "id:films:film::11",
+    "fields": {
+      "title": "The Silence of the Lambs",
+      "description": "A young FBI cadet seeks the advice of an imprisoned cannibalistic serial killer to catch another serial killer.",
+      "genre": "Thriller",
+      "director": "Jonathan Demme",
+      "year": 1991,
+      "rating": 8.6,
+      "tags": ["classic", "oscar-winner", "adaptation"],
+      "cast": ["Jodie Foster", "Anthony Hopkins"]
+    }
+  },
+  {
+    "put": "id:films:film::12",
+    "fields": {
+      "title": "Spirited Away",
+      "description": "A young girl becomes trapped in a mysterious spirit world and must find a way to free herself and her parents.",
+      "genre": "Animation",
+      "director": "Hayao Miyazaki",
+      "year": 2001,
+      "rating": 8.6,
+      "tags": ["oscar-winner", "visually-stunning", "classic"],
+      "cast": ["Rumi Hiiragi", "Miyu Irino"]
+    }
+  },
+  {
+    "put": "id:films:film::13",
+    "fields": {
+      "title": "Saving Private Ryan",
+      "description": "Following D-Day, a group of soldiers goes behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "genre": "Action",
+      "director": "Steven Spielberg",
+      "year": 1998,
+      "rating": 8.6,
+      "tags": ["classic", "oscar-winner", "visually-stunning"],
+      "cast": ["Tom Hanks", "Matt Damon"]
+    }
+  },
+  {
+    "put": "id:films:film::14",
+    "fields": {
+      "title": "Interstellar",
+      "description": "A team of explorers travels through a wormhole in space in an attempt to find a new home for humanity.",
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "year": 2014,
+      "rating": 8.7,
+      "tags": ["blockbuster", "visually-stunning", "thought-provoking"],
+      "cast": ["Matthew McConaughey", "Anne Hathaway"]
+    }
+  },
+  {
+    "put": "id:films:film::15",
+    "fields": {
+      "title": "The Green Mile",
+      "description": "A death row corrections officer discovers that one of his inmates has a mysterious supernatural gift.",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "year": 1999,
+      "rating": 8.6,
+      "tags": ["adaptation", "classic", "thought-provoking"],
+      "cast": ["Tom Hanks", "Michael Clarke Duncan"]
+    }
+  },
+  {
+    "put": "id:films:film::16",
+    "fields": {
+      "title": "Se7en",
+      "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motifs.",
+      "genre": "Thriller",
+      "director": "David Fincher",
+      "year": 1995,
+      "rating": 8.6,
+      "tags": ["classic", "thought-provoking", "visually-stunning"],
+      "cast": ["Brad Pitt", "Morgan Freeman"]
+    }
+  },
+  {
+    "put": "id:films:film::17",
+    "fields": {
+      "title": "The Lion King",
+      "description": "A young lion prince flees his kingdom after the murder of his father, only to return as an adult to reclaim his throne.",
+      "genre": "Animation",
+      "director": "Roger Allers",
+      "year": 1994,
+      "rating": 8.5,
+      "tags": ["classic", "oscar-winner", "blockbuster"],
+      "cast": ["Matthew Broderick", "Jeremy Irons"]
+    }
+  },
+  {
+    "put": "id:films:film::18",
+    "fields": {
+      "title": "Gladiator",
+      "description": "A betrayed Roman general fights his way back as a gladiator to avenge his family and challenge the corrupt emperor.",
+      "genre": "Action",
+      "director": "Ridley Scott",
+      "year": 2000,
+      "rating": 8.5,
+      "tags": ["oscar-winner", "blockbuster", "visually-stunning"],
+      "cast": ["Russell Crowe", "Joaquin Phoenix"]
+    }
+  },
+  {
+    "put": "id:films:film::19",
+    "fields": {
+      "title": "The Departed",
+      "description": "An undercover cop and a mole in the police try to identify each other while infiltrating an Irish gang in Boston.",
+      "genre": "Crime",
+      "director": "Martin Scorsese",
+      "year": 2006,
+      "rating": 8.5,
+      "tags": ["oscar-winner", "ensemble-cast", "adaptation"],
+      "cast": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson"]
+    }
+  },
+  {
+    "put": "id:films:film::20",
+    "fields": {
+      "title": "When Harry Met Sally",
+      "description": "Two friends grapple with the question of whether men and women can ever truly be just friends.",
+      "genre": "Romance",
+      "director": "Rob Reiner",
+      "year": 1989,
+      "rating": 7.7,
+      "tags": ["classic", "oscar-nominated", "thought-provoking"],
+      "cast": ["Billy Crystal", "Meg Ryan"]
+    }
+  },
+  {
+    "put": "id:films:film::21",
+    "fields": {
+      "title": "Die Hard",
+      "description": "A New York cop battles terrorists who have seized a Los Angeles skyscraper during a Christmas party.",
+      "genre": "Action",
+      "director": "John McTiernan",
+      "year": 1988,
+      "rating": 8.2,
+      "tags": ["classic", "blockbuster", "cult-favorite"],
+      "cast": ["Bruce Willis", "Alan Rickman"]
+    }
+  },
+  {
+    "put": "id:films:film::22",
+    "fields": {
+      "title": "The Shining",
+      "description": "A family heads to an isolated hotel for the winter where a sinister presence drives the father into violent madness.",
+      "genre": "Horror",
+      "director": "Stanley Kubrick",
+      "year": 1980,
+      "rating": 8.4,
+      "tags": ["classic", "adaptation", "cult-favorite"],
+      "cast": ["Jack Nicholson", "Shelley Duvall"]
+    }
+  },
+  {
+    "put": "id:films:film::23",
+    "fields": {
+      "title": "Toy Story",
+      "description": "A cowboy doll is profoundly threatened when a new spaceman toy arrives and becomes the favorite.",
+      "genre": "Animation",
+      "director": "John Lasseter",
+      "year": 1995,
+      "rating": 8.3,
+      "tags": ["classic", "blockbuster", "visually-stunning"],
+      "cast": ["Tom Hanks", "Tim Allen"]
+    }
+  },
+  {
+    "put": "id:films:film::24",
+    "fields": {
+      "title": "The Prestige",
+      "description": "Two rival magicians engage in a bitter competition to create the ultimate stage illusion.",
+      "genre": "Thriller",
+      "director": "Christopher Nolan",
+      "year": 2006,
+      "rating": 8.5,
+      "tags": ["adaptation", "thought-provoking", "ensemble-cast"],
+      "cast": ["Christian Bale", "Hugh Jackman"]
+    }
+  },
+  {
+    "put": "id:films:film::25",
+    "fields": {
+      "title": "Alien",
+      "description": "The crew of a commercial spacecraft encounters a deadly life form after investigating a distress signal.",
+      "genre": "Horror",
+      "director": "Ridley Scott",
+      "year": 1979,
+      "rating": 8.5,
+      "tags": ["classic", "visually-stunning", "oscar-winner"],
+      "cast": ["Sigourney Weaver", "Tom Skerritt"]
+    }
+  },
+  {
+    "put": "id:films:film::26",
+    "fields": {
+      "title": "Back to the Future",
+      "description": "A teenager is accidentally sent thirty years into the past in a time-traveling DeLorean and must make sure his parents fall in love.",
+      "genre": "Adventure",
+      "director": "Robert Zemeckis",
+      "year": 1985,
+      "rating": 8.5,
+      "tags": ["classic", "blockbuster", "cult-favorite"],
+      "cast": ["Michael J. Fox", "Christopher Lloyd"]
+    }
+  },
+  {
+    "put": "id:films:film::27",
+    "fields": {
+      "title": "The Notebook",
+      "description": "A poor young man falls in love with a rich young woman, and their love endures across decades despite social differences.",
+      "genre": "Romance",
+      "director": "Nick Cassavetes",
+      "year": 2004,
+      "rating": 7.8,
+      "tags": ["adaptation", "classic", "blockbuster"],
+      "cast": ["Ryan Gosling", "Rachel McAdams"]
+    }
+  },
+  {
+    "put": "id:films:film::28",
+    "fields": {
+      "title": "Superbad",
+      "description": "Two co-dependent high school seniors set out to score alcohol for a party to impress their crushes before graduation.",
+      "genre": "Comedy",
+      "director": "Greg Mottola",
+      "year": 2007,
+      "rating": 7.6,
+      "tags": ["cult-favorite", "ensemble-cast", "blockbuster"],
+      "cast": ["Jonah Hill", "Michael Cera"]
+    }
+  },
+  {
+    "put": "id:films:film::29",
+    "fields": {
+      "title": "Blade Runner 2049",
+      "description": "A young blade runner discovers a long-buried secret that leads him to track down a former blade runner who has been missing for thirty years.",
+      "genre": "Sci-Fi",
+      "director": "Denis Villeneuve",
+      "year": 2017,
+      "rating": 8.0,
+      "tags": ["sequel", "visually-stunning", "thought-provoking"],
+      "cast": ["Ryan Gosling", "Harrison Ford"]
+    }
+  },
+  {
+    "put": "id:films:film::30",
+    "fields": {
+      "title": "The Exorcist",
+      "description": "A mother seeks the help of two priests to save her daughter from demonic possession.",
+      "genre": "Horror",
+      "director": "William Friedkin",
+      "year": 1973,
+      "rating": 8.1,
+      "tags": ["classic", "oscar-winner", "adaptation"],
+      "cast": ["Linda Blair", "Ellen Burstyn"]
+    }
+  },
+  {
+    "put": "id:films:film::31",
+    "fields": {
+      "title": "Raiders of the Lost Ark",
+      "description": "An adventurous archaeologist races against Nazis to find the legendary Ark of the Covenant.",
+      "genre": "Adventure",
+      "director": "Steven Spielberg",
+      "year": 1981,
+      "rating": 8.4,
+      "tags": ["classic", "blockbuster", "oscar-winner"],
+      "cast": ["Harrison Ford", "Karen Allen"]
+    }
+  },
+  {
+    "put": "id:films:film::32",
+    "fields": {
+      "title": "The Big Lebowski",
+      "description": "An easygoing bowler is drawn into a web of intrigue after being mistaken for a millionaire with the same name.",
+      "genre": "Comedy",
+      "director": "Joel Coen",
+      "year": 1998,
+      "rating": 8.1,
+      "tags": ["cult-favorite", "classic", "ensemble-cast"],
+      "cast": ["Jeff Bridges", "John Goodman"]
+    }
+  },
+  {
+    "put": "id:films:film::33",
+    "fields": {
+      "title": "Titanic",
+      "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the ill-fated R.M.S. Titanic.",
+      "genre": "Romance",
+      "director": "James Cameron",
+      "year": 1997,
+      "rating": 7.9,
+      "tags": ["oscar-winner", "blockbuster", "visually-stunning"],
+      "cast": ["Leonardo DiCaprio", "Kate Winslet"]
+    }
+  },
+  {
+    "put": "id:films:film::34",
+    "fields": {
+      "title": "Mad Max: Fury Road",
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler with help from a drifter.",
+      "genre": "Action",
+      "director": "George Miller",
+      "year": 2015,
+      "rating": 8.1,
+      "tags": ["oscar-winner", "visually-stunning", "blockbuster"],
+      "cast": ["Tom Hardy", "Charlize Theron"]
+    }
+  },
+  {
+    "put": "id:films:film::35",
+    "fields": {
+      "title": "Parasite",
+      "description": "A poor family schemes to become employed by a wealthy family, with increasingly dark consequences.",
+      "genre": "Thriller",
+      "director": "Bong Joon-ho",
+      "year": 2019,
+      "rating": 8.5,
+      "tags": ["oscar-winner", "thought-provoking", "visually-stunning"],
+      "cast": ["Song Kang-ho", "Lee Sun-kyun"]
+    }
+  },
+  {
+    "put": "id:films:film::36",
+    "fields": {
+      "title": "Get Out",
+      "description": "A young African-American man visits his white girlfriend's family estate and becomes ensnared in a horrifying secret.",
+      "genre": "Horror",
+      "director": "Jordan Peele",
+      "year": 2017,
+      "rating": 7.7,
+      "tags": ["oscar-winner", "thought-provoking", "indie"],
+      "cast": ["Daniel Kaluuya", "Allison Williams"]
+    }
+  },
+  {
+    "put": "id:films:film::37",
+    "fields": {
+      "title": "WALL-E",
+      "description": "A lone robot on a future deserted Earth discovers a new purpose in life when he meets a sleek search robot.",
+      "genre": "Animation",
+      "director": "Andrew Stanton",
+      "year": 2008,
+      "rating": 8.4,
+      "tags": ["oscar-winner", "visually-stunning", "thought-provoking"],
+      "cast": ["Ben Burtt", "Elissa Knight"]
+    }
+  },
+  {
+    "put": "id:films:film::38",
+    "fields": {
+      "title": "The Princess Bride",
+      "description": "A young woman is kidnapped and her true love must rescue her from a scheming prince.",
+      "genre": "Adventure",
+      "director": "Rob Reiner",
+      "year": 1987,
+      "rating": 8.0,
+      "tags": ["classic", "cult-favorite", "adaptation"],
+      "cast": ["Cary Elwes", "Robin Wright"]
+    }
+  },
+  {
+    "put": "id:films:film::39",
+    "fields": {
+      "title": "Groundhog Day",
+      "description": "A weatherman finds himself reliving the same day over and over again in a small Pennsylvania town.",
+      "genre": "Comedy",
+      "director": "Harold Ramis",
+      "year": 1993,
+      "rating": 8.0,
+      "tags": ["classic", "cult-favorite", "thought-provoking"],
+      "cast": ["Bill Murray", "Andie MacDowell"]
+    }
+  },
+  {
+    "put": "id:films:film::40",
+    "fields": {
+      "title": "2001: A Space Odyssey",
+      "description": "Humanity finds a mysterious monolith on the Moon and sends an expedition to Jupiter with the sentient computer HAL 9000.",
+      "genre": "Sci-Fi",
+      "director": "Stanley Kubrick",
+      "year": 1968,
+      "rating": 8.3,
+      "tags": ["classic", "visually-stunning", "thought-provoking"],
+      "cast": ["Keir Dullea", "Gary Lockwood"]
+    }
+  },
+  {
+    "put": "id:films:film::41",
+    "fields": {
+      "title": "Zodiac",
+      "description": "A San Francisco cartoonist becomes obsessed with tracking down the Zodiac killer in a decades-long investigation.",
+      "genre": "Thriller",
+      "director": "David Fincher",
+      "year": 2007,
+      "rating": 7.7,
+      "tags": ["adaptation", "ensemble-cast", "thought-provoking"],
+      "cast": ["Jake Gyllenhaal", "Robert Downey Jr."]
+    }
+  },
+  {
+    "put": "id:films:film::42",
+    "fields": {
+      "title": "Pride & Prejudice",
+      "description": "A spirited young woman navigates society and falls for a wealthy but seemingly arrogant gentleman in Regency-era England.",
+      "genre": "Romance",
+      "director": "Joe Wright",
+      "year": 2005,
+      "rating": 7.8,
+      "tags": ["adaptation", "oscar-nominated", "visually-stunning"],
+      "cast": ["Keira Knightley", "Matthew Macfadyen"]
+    }
+  },
+  {
+    "put": "id:films:film::43",
+    "fields": {
+      "title": "The Terminator",
+      "description": "A cyborg assassin is sent back in time to kill the mother of the future resistance leader.",
+      "genre": "Action",
+      "director": "James Cameron",
+      "year": 1984,
+      "rating": 8.1,
+      "tags": ["classic", "cult-favorite", "blockbuster"],
+      "cast": ["Arnold Schwarzenegger", "Linda Hamilton"]
+    }
+  },
+  {
+    "put": "id:films:film::44",
+    "fields": {
+      "title": "Psycho",
+      "description": "A secretary on the run checks into a remote motel run by a young man under the domination of his mother.",
+      "genre": "Horror",
+      "director": "Alfred Hitchcock",
+      "year": 1960,
+      "rating": 8.5,
+      "tags": ["classic", "thought-provoking", "oscar-nominated"],
+      "cast": ["Anthony Perkins", "Janet Leigh"]
+    }
+  },
+  {
+    "put": "id:films:film::45",
+    "fields": {
+      "title": "Finding Nemo",
+      "description": "After his son is captured and taken to Sydney, a timid clownfish sets out on a journey across the ocean to bring him home.",
+      "genre": "Animation",
+      "director": "Andrew Stanton",
+      "year": 2003,
+      "rating": 8.2,
+      "tags": ["oscar-winner", "blockbuster", "visually-stunning"],
+      "cast": ["Albert Brooks", "Ellen DeGeneres"]
+    }
+  },
+  {
+    "put": "id:films:film::46",
+    "fields": {
+      "title": "Jurassic Park",
+      "description": "A theme park with cloned dinosaurs turns deadly when the security systems fail and the creatures run free.",
+      "genre": "Adventure",
+      "director": "Steven Spielberg",
+      "year": 1993,
+      "rating": 8.2,
+      "tags": ["blockbuster", "visually-stunning", "classic"],
+      "cast": ["Sam Neill", "Laura Dern", "Jeff Goldblum"]
+    }
+  },
+  {
+    "put": "id:films:film::47",
+    "fields": {
+      "title": "The Usual Suspects",
+      "description": "A sole survivor tells the police his account of events that led him and his four fellow cons to a deadly shootout.",
+      "genre": "Crime",
+      "director": "Bryan Singer",
+      "year": 1995,
+      "rating": 8.5,
+      "tags": ["oscar-winner", "cult-favorite", "ensemble-cast"],
+      "cast": ["Kevin Spacey", "Gabriel Byrne"]
+    }
+  },
+  {
+    "put": "id:films:film::48",
+    "fields": {
+      "title": "Bridesmaids",
+      "description": "A woman's life unravels as she leads her best friend through the chaotic planning of her wedding.",
+      "genre": "Comedy",
+      "director": "Paul Feig",
+      "year": 2011,
+      "rating": 6.8,
+      "tags": ["blockbuster", "ensemble-cast", "oscar-nominated"],
+      "cast": ["Kristen Wiig", "Maya Rudolph"]
+    }
+  },
+  {
+    "put": "id:films:film::49",
+    "fields": {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "description": "A couple undergoes a procedure to erase each other from their memories after a painful breakup.",
+      "genre": "Romance",
+      "director": "Michel Gondry",
+      "year": 2004,
+      "rating": 8.3,
+      "tags": ["oscar-winner", "indie", "thought-provoking"],
+      "cast": ["Jim Carrey", "Kate Winslet"]
+    }
+  },
+  {
+    "put": "id:films:film::50",
+    "fields": {
+      "title": "Arrival",
+      "description": "A linguistics professor leads an elite team to interpret the language of extraterrestrial visitors who have landed around the world.",
+      "genre": "Sci-Fi",
+      "director": "Denis Villeneuve",
+      "year": 2016,
+      "rating": 7.9,
+      "tags": ["adaptation", "thought-provoking", "visually-stunning"],
+      "cast": ["Amy Adams", "Jeremy Renner"]
+    }
+  },
+  {
+    "put": "id:films:film::51",
+    "fields": {
+      "title": "No Country for Old Men",
+      "description": "A hunter stumbles upon a drug deal gone wrong and is pursued by a relentless killer across the Texas desert.",
+      "genre": "Thriller",
+      "director": "Joel Coen",
+      "year": 2007,
+      "rating": 8.2,
+      "tags": ["oscar-winner", "adaptation", "thought-provoking"],
+      "cast": ["Javier Bardem", "Josh Brolin", "Tommy Lee Jones"]
+    }
+  },
+  {
+    "put": "id:films:film::52",
+    "fields": {
+      "title": "John Wick",
+      "description": "A retired hitman seeks vengeance against a crime lord's son who stole his car and killed his dog.",
+      "genre": "Action",
+      "director": "Chad Stahelski",
+      "year": 2014,
+      "rating": 7.4,
+      "tags": ["blockbuster", "cult-favorite", "visually-stunning"],
+      "cast": ["Keanu Reeves", "Michael Nyqvist"]
+    }
+  },
+  {
+    "put": "id:films:film::53",
+    "fields": {
+      "title": "It",
+      "description": "A group of young kids face their biggest fears when they confront an evil clown named Pennywise.",
+      "genre": "Horror",
+      "director": "Andy Muschietti",
+      "year": 2017,
+      "rating": 7.3,
+      "tags": ["adaptation", "blockbuster", "ensemble-cast"],
+      "cast": ["Bill Skarsgard", "Jaeden Martell"]
+    }
+  },
+  {
+    "put": "id:films:film::54",
+    "fields": {
+      "title": "Up",
+      "description": "An elderly widower ties thousands of balloons to his house and flies to South America, with a young stowaway aboard.",
+      "genre": "Animation",
+      "director": "Pete Docter",
+      "year": 2009,
+      "rating": 8.3,
+      "tags": ["oscar-winner", "visually-stunning", "thought-provoking"],
+      "cast": ["Ed Asner", "Jordan Nagai"]
+    }
+  },
+  {
+    "put": "id:films:film::55",
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "A hobbit inherits a powerful ring and sets out on an epic journey to destroy it in the fires of Mount Doom.",
+      "genre": "Adventure",
+      "director": "Peter Jackson",
+      "year": 2001,
+      "rating": 8.8,
+      "tags": ["oscar-winner", "adaptation", "blockbuster"],
+      "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"]
+    }
+  },
+  {
+    "put": "id:films:film::56",
+    "fields": {
+      "title": "Heat",
+      "description": "A group of professional bank robbers starts to feel the heat from the LAPD when they unknowingly leave a clue.",
+      "genre": "Crime",
+      "director": "Michael Mann",
+      "year": 1995,
+      "rating": 8.3,
+      "tags": ["classic", "ensemble-cast", "visually-stunning"],
+      "cast": ["Al Pacino", "Robert De Niro"]
+    }
+  },
+  {
+    "put": "id:films:film::57",
+    "fields": {
+      "title": "Airplane!",
+      "description": "A man afraid to fly must take over piloting a commercial airliner when the crew falls ill from food poisoning.",
+      "genre": "Comedy",
+      "director": "Jim Abrahams",
+      "year": 1980,
+      "rating": 7.7,
+      "tags": ["classic", "cult-favorite", "ensemble-cast"],
+      "cast": ["Robert Hays", "Julie Hagerty", "Leslie Nielsen"]
+    }
+  },
+  {
+    "put": "id:films:film::58",
+    "fields": {
+      "title": "Before Sunrise",
+      "description": "Two strangers meet on a train in Europe and spend one magical night walking through Vienna together.",
+      "genre": "Romance",
+      "director": "Richard Linklater",
+      "year": 1995,
+      "rating": 8.1,
+      "tags": ["indie", "thought-provoking", "classic"],
+      "cast": ["Ethan Hawke", "Julie Delpy"]
+    }
+  },
+  {
+    "put": "id:films:film::59",
+    "fields": {
+      "title": "Ex Machina",
+      "description": "A programmer is selected to participate in an experiment to evaluate the human qualities of an advanced AI.",
+      "genre": "Sci-Fi",
+      "director": "Alex Garland",
+      "year": 2014,
+      "rating": 7.7,
+      "tags": ["oscar-winner", "indie", "thought-provoking"],
+      "cast": ["Alicia Vikander", "Domhnall Gleeson", "Oscar Isaac"]
+    }
+  },
+  {
+    "put": "id:films:film::60",
+    "fields": {
+      "title": "Oldboy",
+      "description": "After being kidnapped and imprisoned for fifteen years, a man is released and seeks to uncover the reason behind his captivity.",
+      "genre": "Thriller",
+      "director": "Park Chan-wook",
+      "year": 2003,
+      "rating": 8.4,
+      "tags": ["cult-favorite", "visually-stunning", "thought-provoking"],
+      "cast": ["Choi Min-sik", "Yoo Ji-tae"]
+    }
+  },
+  {
+    "put": "id:films:film::61",
+    "fields": {
+      "title": "Kill Bill: Volume 1",
+      "description": "A former assassin awakens from a coma and seeks revenge on her former colleagues who betrayed her.",
+      "genre": "Action",
+      "director": "Quentin Tarantino",
+      "year": 2003,
+      "rating": 8.2,
+      "tags": ["cult-favorite", "visually-stunning", "blockbuster"],
+      "cast": ["Uma Thurman", "Lucy Liu"]
+    }
+  },
+  {
+    "put": "id:films:film::62",
+    "fields": {
+      "title": "Hereditary",
+      "description": "A family is haunted by tragic and increasingly terrifying events after the death of their secretive grandmother.",
+      "genre": "Horror",
+      "director": "Ari Aster",
+      "year": 2018,
+      "rating": 7.3,
+      "tags": ["indie", "visually-stunning", "thought-provoking"],
+      "cast": ["Toni Collette", "Alex Wolff"]
+    }
+  },
+  {
+    "put": "id:films:film::63",
+    "fields": {
+      "title": "Coco",
+      "description": "A boy who dreams of becoming a musician enters the Land of the Dead to find his great-grandfather.",
+      "genre": "Animation",
+      "director": "Lee Unkrich",
+      "year": 2017,
+      "rating": 8.4,
+      "tags": ["oscar-winner", "visually-stunning", "blockbuster"],
+      "cast": ["Anthony Gonzalez", "Gael Garcia Bernal"]
+    }
+  },
+  {
+    "put": "id:films:film::64",
+    "fields": {
+      "title": "Indiana Jones and the Last Crusade",
+      "description": "An archaeologist and his father embark on a quest to find the Holy Grail before the Nazis.",
+      "genre": "Adventure",
+      "director": "Steven Spielberg",
+      "year": 1989,
+      "rating": 8.2,
+      "tags": ["classic", "blockbuster", "sequel"],
+      "cast": ["Harrison Ford", "Sean Connery"]
+    }
+  },
+  {
+    "put": "id:films:film::65",
+    "fields": {
+      "title": "City of God",
+      "description": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths as one becomes a photographer and the other a drug dealer.",
+      "genre": "Crime",
+      "director": "Fernando Meirelles",
+      "year": 2002,
+      "rating": 8.6,
+      "tags": ["visually-stunning", "thought-provoking", "oscar-nominated"],
+      "cast": ["Alexandre Rodrigues", "Leandro Firmino"]
+    }
+  },
+  {
+    "put": "id:films:film::66",
+    "fields": {
+      "title": "The Hangover",
+      "description": "Three friends wake up from a bachelor party in Las Vegas with no memory of the previous night and must retrace their steps.",
+      "genre": "Comedy",
+      "director": "Todd Phillips",
+      "year": 2009,
+      "rating": 7.7,
+      "tags": ["blockbuster", "ensemble-cast", "cult-favorite"],
+      "cast": ["Bradley Cooper", "Zach Galifianakis", "Ed Helms"]
+    }
+  },
+  {
+    "put": "id:films:film::67",
+    "fields": {
+      "title": "La La Land",
+      "description": "A jazz musician and an aspiring actress fall in love while pursuing their dreams in Los Angeles.",
+      "genre": "Romance",
+      "director": "Damien Chazelle",
+      "year": 2016,
+      "rating": 8.0,
+      "tags": ["oscar-winner", "visually-stunning", "blockbuster"],
+      "cast": ["Ryan Gosling", "Emma Stone"]
+    }
+  },
+  {
+    "put": "id:films:film::68",
+    "fields": {
+      "title": "Terminator 2: Judgment Day",
+      "description": "A cyborg is sent back in time to protect a young boy from a more advanced and deadly cyborg.",
+      "genre": "Action",
+      "director": "James Cameron",
+      "year": 1991,
+      "rating": 8.6,
+      "tags": ["sequel", "blockbuster", "visually-stunning"],
+      "cast": ["Arnold Schwarzenegger", "Linda Hamilton"]
+    }
+  },
+  {
+    "put": "id:films:film::69",
+    "fields": {
+      "title": "The Thing",
+      "description": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+      "genre": "Horror",
+      "director": "John Carpenter",
+      "year": 1982,
+      "rating": 8.2,
+      "tags": ["cult-favorite", "classic", "visually-stunning"],
+      "cast": ["Kurt Russell", "Wilford Brimley"]
+    }
+  },
+  {
+    "put": "id:films:film::70",
+    "fields": {
+      "title": "Inside Out",
+      "description": "After young Riley is uprooted from her life, her emotions conflict on how best to navigate a new city and school.",
+      "genre": "Animation",
+      "director": "Pete Docter",
+      "year": 2015,
+      "rating": 8.1,
+      "tags": ["oscar-winner", "blockbuster", "thought-provoking"],
+      "cast": ["Amy Poehler", "Phyllis Smith"]
+    }
+  },
+  {
+    "put": "id:films:film::71",
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "description": "The final battle for Middle-earth begins as Frodo and Sam approach Mount Doom to destroy the One Ring.",
+      "genre": "Adventure",
+      "director": "Peter Jackson",
+      "year": 2003,
+      "rating": 9.0,
+      "tags": ["oscar-winner", "blockbuster", "sequel"],
+      "cast": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"]
+    }
+  },
+  {
+    "put": "id:films:film::72",
+    "fields": {
+      "title": "Reservoir Dogs",
+      "description": "After a heist goes wrong, the surviving criminals try to find out which one of them is a police informant.",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "year": 1992,
+      "rating": 8.3,
+      "tags": ["cult-favorite", "indie", "ensemble-cast"],
+      "cast": ["Harvey Keitel", "Tim Roth", "Steve Buscemi"]
+    }
+  },
+  {
+    "put": "id:films:film::73",
+    "fields": {
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "description": "A pompous TV news anchor clashes with his new female co-anchor in 1970s San Diego.",
+      "genre": "Comedy",
+      "director": "Adam McKay",
+      "year": 2004,
+      "rating": 7.2,
+      "tags": ["cult-favorite", "ensemble-cast", "blockbuster"],
+      "cast": ["Will Ferrell", "Christina Applegate"]
+    }
+  },
+  {
+    "put": "id:films:film::74",
+    "fields": {
+      "title": "10 Things I Hate About You",
+      "description": "A bad-boy is paid to date a shrewish girl so her younger sister can date, loosely based on Shakespeare's Taming of the Shrew.",
+      "genre": "Romance",
+      "director": "Gil Junger",
+      "year": 1999,
+      "rating": 7.3,
+      "tags": ["adaptation", "cult-favorite", "classic"],
+      "cast": ["Heath Ledger", "Julia Stiles"]
+    }
+  },
+  {
+    "put": "id:films:film::75",
+    "fields": {
+      "title": "Dune",
+      "description": "A noble family becomes embroiled in a war for control over a desert planet and its precious resource.",
+      "genre": "Sci-Fi",
+      "director": "Denis Villeneuve",
+      "year": 2021,
+      "rating": 8.0,
+      "tags": ["adaptation", "blockbuster", "visually-stunning"],
+      "cast": ["Timothee Chalamet", "Zendaya"]
+    }
+  },
+  {
+    "put": "id:films:film::76",
+    "fields": {
+      "title": "Memento",
+      "description": "A man with short-term memory loss uses notes and tattoos to hunt for the man he believes killed his wife.",
+      "genre": "Thriller",
+      "director": "Christopher Nolan",
+      "year": 2000,
+      "rating": 8.4,
+      "tags": ["indie", "cult-favorite", "thought-provoking"],
+      "cast": ["Guy Pearce", "Carrie-Anne Moss"]
+    }
+  },
+  {
+    "put": "id:films:film::77",
+    "fields": {
+      "title": "The Avengers",
+      "description": "Earth's mightiest heroes must come together to stop an alien invasion led by Thor's adoptive brother Loki.",
+      "genre": "Action",
+      "director": "Joss Whedon",
+      "year": 2012,
+      "rating": 8.0,
+      "tags": ["blockbuster", "sequel", "ensemble-cast"],
+      "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"]
+    }
+  },
+  {
+    "put": "id:films:film::78",
+    "fields": {
+      "title": "A Quiet Place",
+      "description": "A family must live in silence to avoid mysterious creatures that hunt by sound.",
+      "genre": "Horror",
+      "director": "John Krasinski",
+      "year": 2018,
+      "rating": 7.5,
+      "tags": ["blockbuster", "thought-provoking", "visually-stunning"],
+      "cast": ["Emily Blunt", "John Krasinski"]
+    }
+  },
+  {
+    "put": "id:films:film::79",
+    "fields": {
+      "title": "Ratatouille",
+      "description": "A rat who dreams of becoming a great chef forms an unlikely partnership with a young kitchen worker in Paris.",
+      "genre": "Animation",
+      "director": "Brad Bird",
+      "year": 2007,
+      "rating": 8.1,
+      "tags": ["oscar-winner", "visually-stunning", "thought-provoking"],
+      "cast": ["Patton Oswalt", "Ian Holm"]
+    }
+  },
+  {
+    "put": "id:films:film::80",
+    "fields": {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "description": "A swashbuckling pirate teams up with a blacksmith to rescue a governor's daughter from cursed pirates.",
+      "genre": "Adventure",
+      "director": "Gore Verbinski",
+      "year": 2003,
+      "rating": 8.1,
+      "tags": ["blockbuster", "oscar-nominated", "visually-stunning"],
+      "cast": ["Johnny Depp", "Orlando Bloom", "Keira Knightley"]
+    }
+  },
+  {
+    "put": "id:films:film::81",
+    "fields": {
+      "title": "The Godfather Part II",
+      "description": "The early life of Vito Corleone in Sicily and his rise in New York intercuts with his son Michael's expanding criminal empire.",
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "year": 1974,
+      "rating": 9.0,
+      "tags": ["classic", "oscar-winner", "sequel"],
+      "cast": ["Al Pacino", "Robert De Niro"]
+    }
+  },
+  {
+    "put": "id:films:film::82",
+    "fields": {
+      "title": "The Grand Budapest Hotel",
+      "description": "A legendary concierge at a famous hotel is framed for murder and must prove his innocence.",
+      "genre": "Comedy",
+      "director": "Wes Anderson",
+      "year": 2014,
+      "rating": 8.1,
+      "tags": ["oscar-winner", "visually-stunning", "ensemble-cast"],
+      "cast": ["Ralph Fiennes", "Tony Revolori"]
+    }
+  },
+  {
+    "put": "id:films:film::83",
+    "fields": {
+      "title": "Casablanca",
+      "description": "A cynical expatriate nightclub owner in Morocco must choose between love and helping a resistance leader escape.",
+      "genre": "Romance",
+      "director": "Michael Curtiz",
+      "year": 1942,
+      "rating": 8.5,
+      "tags": ["classic", "oscar-winner", "thought-provoking"],
+      "cast": ["Humphrey Bogart", "Ingrid Bergman"]
+    }
+  },
+  {
+    "put": "id:films:film::84",
+    "fields": {
+      "title": "The Bourne Identity",
+      "description": "A man suffering from amnesia tries to discover his true identity while evading assassins.",
+      "genre": "Action",
+      "director": "Doug Liman",
+      "year": 2002,
+      "rating": 7.9,
+      "tags": ["adaptation", "blockbuster", "ensemble-cast"],
+      "cast": ["Matt Damon", "Franka Potente"]
+    }
+  },
+  {
+    "put": "id:films:film::85",
+    "fields": {
+      "title": "The Conjuring",
+      "description": "Paranormal investigators help a family terrorized by a dark presence in their farmhouse.",
+      "genre": "Horror",
+      "director": "James Wan",
+      "year": 2013,
+      "rating": 7.5,
+      "tags": ["blockbuster", "adaptation", "visually-stunning"],
+      "cast": ["Vera Farmiga", "Patrick Wilson"]
+    }
+  },
+  {
+    "put": "id:films:film::86",
+    "fields": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "description": "Teen Miles Morales becomes Spider-Man and crosses paths with counterparts from other dimensions.",
+      "genre": "Animation",
+      "director": "Bob Persichetti",
+      "year": 2018,
+      "rating": 8.4,
+      "tags": ["oscar-winner", "visually-stunning", "blockbuster"],
+      "cast": ["Shameik Moore", "Jake Johnson"]
+    }
+  },
+  {
+    "put": "id:films:film::87",
+    "fields": {
+      "title": "Star Wars: The Empire Strikes Back",
+      "description": "The rebels face a devastating Imperial assault while Luke Skywalker trains with Jedi Master Yoda.",
+      "genre": "Adventure",
+      "director": "Irvin Kershner",
+      "year": 1980,
+      "rating": 8.7,
+      "tags": ["classic", "sequel", "blockbuster"],
+      "cast": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"]
+    }
+  },
+  {
+    "put": "id:films:film::88",
+    "fields": {
+      "title": "Fargo",
+      "description": "A car salesman hires two criminals to kidnap his wife so he can collect the ransom from her wealthy father.",
+      "genre": "Crime",
+      "director": "Joel Coen",
+      "year": 1996,
+      "rating": 8.1,
+      "tags": ["oscar-winner", "cult-favorite", "thought-provoking"],
+      "cast": ["Frances McDormand", "William H. Macy"]
+    }
+  },
+  {
+    "put": "id:films:film::89",
+    "fields": {
+      "title": "Ghostbusters",
+      "description": "Three parapsychologists start a ghost-catching business in New York City.",
+      "genre": "Comedy",
+      "director": "Ivan Reitman",
+      "year": 1984,
+      "rating": 7.8,
+      "tags": ["classic", "blockbuster", "ensemble-cast"],
+      "cast": ["Bill Murray", "Dan Aykroyd", "Harold Ramis"]
+    }
+  },
+  {
+    "put": "id:films:film::90",
+    "fields": {
+      "title": "Moonlight",
+      "description": "A young man growing up in Miami deals with his identity and sexuality across three defining chapters of his life.",
+      "genre": "Drama",
+      "director": "Barry Jenkins",
+      "year": 2016,
+      "rating": 7.4,
+      "tags": ["oscar-winner", "indie", "thought-provoking"],
+      "cast": ["Mahershala Ali", "Trevante Rhodes"]
+    }
+  },
+  {
+    "put": "id:films:film::91",
+    "fields": {
+      "title": "Gravity",
+      "description": "Two astronauts struggle to survive after debris destroys their shuttle, leaving them stranded in space.",
+      "genre": "Sci-Fi",
+      "director": "Alfonso Cuaron",
+      "year": 2013,
+      "rating": 7.7,
+      "tags": ["oscar-winner", "visually-stunning", "blockbuster"],
+      "cast": ["Sandra Bullock", "George Clooney"]
+    }
+  },
+  {
+    "put": "id:films:film::92",
+    "fields": {
+      "title": "Gone Girl",
+      "description": "A man becomes the prime suspect when his wife goes missing on their fifth wedding anniversary.",
+      "genre": "Thriller",
+      "director": "David Fincher",
+      "year": 2014,
+      "rating": 8.1,
+      "tags": ["adaptation", "thought-provoking", "blockbuster"],
+      "cast": ["Ben Affleck", "Rosamund Pike"]
+    }
+  },
+  {
+    "put": "id:films:film::93",
+    "fields": {
+      "title": "Top Gun: Maverick",
+      "description": "A veteran fighter pilot must confront his past while training a group of graduates for a specialized mission.",
+      "genre": "Action",
+      "director": "Joseph Kosinski",
+      "year": 2022,
+      "rating": 8.2,
+      "tags": ["sequel", "blockbuster", "visually-stunning"],
+      "cast": ["Tom Cruise", "Miles Teller"]
+    }
+  },
+  {
+    "put": "id:films:film::94",
+    "fields": {
+      "title": "Midsommar",
+      "description": "A couple travels to a remote Swedish village for a midsummer festival that turns out to be a terrifying pagan cult.",
+      "genre": "Horror",
+      "director": "Ari Aster",
+      "year": 2019,
+      "rating": 7.1,
+      "tags": ["indie", "visually-stunning", "cult-favorite"],
+      "cast": ["Florence Pugh", "Jack Reynor"]
+    }
+  },
+  {
+    "put": "id:films:film::95",
+    "fields": {
+      "title": "The Incredibles",
+      "description": "A family of superheroes is forced to hide their powers and live a quiet suburban life until a new villain emerges.",
+      "genre": "Animation",
+      "director": "Brad Bird",
+      "year": 2004,
+      "rating": 8.0,
+      "tags": ["oscar-winner", "blockbuster", "ensemble-cast"],
+      "cast": ["Craig T. Nelson", "Holly Hunter"]
+    }
+  },
+  {
+    "put": "id:films:film::96",
+    "fields": {
+      "title": "The Lord of the Rings: The Two Towers",
+      "description": "The fellowship is broken, and its members pursue their separate quests as the war for Middle-earth intensifies.",
+      "genre": "Adventure",
+      "director": "Peter Jackson",
+      "year": 2002,
+      "rating": 8.8,
+      "tags": ["blockbuster", "sequel", "visually-stunning"],
+      "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"]
+    }
+  },
+  {
+    "put": "id:films:film::97",
+    "fields": {
+      "title": "Sicario",
+      "description": "An idealistic FBI agent is enlisted by a government task force to aid in the war against drugs at the border.",
+      "genre": "Crime",
+      "director": "Denis Villeneuve",
+      "year": 2015,
+      "rating": 7.6,
+      "tags": ["visually-stunning", "thought-provoking", "ensemble-cast"],
+      "cast": ["Emily Blunt", "Benicio del Toro", "Josh Brolin"]
+    }
+  },
+  {
+    "put": "id:films:film::98",
+    "fields": {
+      "title": "Monty Python and the Holy Grail",
+      "description": "King Arthur and his knights embark on a surreal quest for the Holy Grail, encountering absurd obstacles.",
+      "genre": "Comedy",
+      "director": "Terry Gilliam",
+      "year": 1975,
+      "rating": 8.2,
+      "tags": ["classic", "cult-favorite", "indie"],
+      "cast": ["Graham Chapman", "John Cleese"]
+    }
+  },
+  {
+    "put": "id:films:film::99",
+    "fields": {
+      "title": "12 Angry Men",
+      "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "genre": "Drama",
+      "director": "Sidney Lumet",
+      "year": 1957,
+      "rating": 9.0,
+      "tags": ["classic", "thought-provoking", "ensemble-cast"],
+      "cast": ["Henry Fonda", "Lee J. Cobb"]
+    }
+  },
+  {
+    "put": "id:films:film::100",
+    "fields": {
+      "title": "Everything Everywhere All at Once",
+      "description": "A middle-aged Chinese immigrant is swept up in an insane adventure where she alone can save existence by exploring other universes.",
+      "genre": "Sci-Fi",
+      "director": "Daniel Kwan",
+      "year": 2022,
+      "rating": 7.8,
+      "tags": ["oscar-winner", "visually-stunning", "indie"],
+      "cast": ["Michelle Yeoh", "Ke Huy Quan", "Jamie Lee Curtis"]
+    }
+  }
+]

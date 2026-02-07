@@ -1,0 +1,66 @@
+.historySection {
+  margin-bottom: 20px;
+}
+
+.toggle,
+.toggleOpen {
+  font-size: 16px;
+  color: #444;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle::before,
+.toggleOpen::before {
+  content: "\25B6";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.toggleOpen::before {
+  transform: rotate(90deg);
+}
+
+.historyContent {
+  margin-top: 8px;
+}
+
+.historyFilm {
+  padding: 6px 8px;
+  font-size: 13px;
+  border-left: 3px solid #4a90d9;
+  margin: 4px 0 4px 8px;
+  background: #fff;
+}
+
+.hfName {
+  font-weight: 600;
+}
+
+.hfMeta {
+  color: #888;
+  font-size: 12px;
+}
+
+.stars {
+  color: #f5a623;
+  font-size: 13px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 4px;
+  font-size: 11px;
+}
+
+.historyEmpty {
+  color: #888;
+  font-size: 13px;
+  font-style: italic;
+  padding: 8px 0;
+}

@@ -1,0 +1,93 @@
+.prefsSection {
+  background: #f8f9fa;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.prefsSection h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 8px 0;
+}
+
+.prefGroup {
+  margin-bottom: 10px;
+}
+
+.groupLabel {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1.5px solid #ccc;
+  background: #fff;
+  color: #555;
+  user-select: none;
+  transition: all 0.15s;
+}
+
+.pill:hover {
+  border-color: #999;
+}
+
+.like {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.dislike {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.saveBtn {
+  margin-top: 10px;
+  padding: 6px 16px;
+  background: #4a90d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.saveBtn:hover {
+  background: #3a7bc8;
+}
+
+.saveBtn:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.saveStatus {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #28a745;
+}

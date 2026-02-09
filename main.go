@@ -519,15 +519,16 @@ func getWatchedFilmIDs(ctx context.Context, userID string) map[string]bool {
 
 // --- Vespa query building ---
 
-func buildVespaQuery(query string, prefs []Preference) string {
+func buildVespaQuery(query string, prefs []Preference, hits int) string {
 	params := url.Values{}
-	if query == "*" {
-		params.Set("yql", "select * from film where true")
-	} else {
-		params.Set("yql", "select * from film where userQuery()")
+	yql := "select * from film where true"
+	if query != "*" {
+		yql = "select * from film where userQuery()"
 		params.Set("query", query)
 	}
-	params.Set("hits", "100")
+
+	params.Set("yql", yql)
+	params.Set("hits", fmt.Sprintf("%d", hits))
 
 	var genreLike, genreDislike, tagLike, tagDislike []string
 	for _, p := range prefs {
@@ -624,7 +625,7 @@ func handleSearch(w http.ResponseWriter, r *http.Request) {
 		prefs = getUserPreferences(r.Context(), userID)
 	}
 
-	vespaURL := buildVespaQuery(query, prefs)
+	vespaURL := buildVespaQuery(query, prefs, 100)
 
 	resp, err := vespaClient.Get(vespaURL)
 	if err != nil {
@@ -840,9 +841,10 @@ func handleRecommendations(w http.ResponseWriter, r *http.Request) {
 	userID := r.PathValue("id")
 
 	prefs := getUserPreferences(r.Context(), userID)
-	watched := getWatchedFilmIDs(r.Context(), userID)
+	watchedMap := getWatchedFilmIDs(r.Context(), userID)
 
-	vespaURL := buildVespaQuery("*", prefs)
+	// Request extra hits to account for client-side watched-film filtering
+	vespaURL := buildVespaQuery("*", prefs, len(watchedMap)+5)
 
 	resp, err := vespaClient.Get(vespaURL)
 	if err != nil {
@@ -872,7 +874,7 @@ func handleRecommendations(w http.ResponseWriter, r *http.Request) {
 		if parts := strings.Split(hit.ID, "::"); len(parts) == 2 {
 			filmID = parts[1]
 		}
-		if !watched[filmID] {
+		if !watchedMap[filmID] {
 			recs = append(recs, hit)
 			if len(recs) >= 5 {
 				break
